@@ -77,9 +77,7 @@
     display: block;
     position: relative;
     margin-left: 100px;
-
   }
-
   .logoImage {
     margin-right: 100px;
     width: 45px;
@@ -88,8 +86,12 @@
   }
   .menuIcon {
     display: flex;
-      justify-content: center;
-      align-items:center;
+    justify-content: center;
+    align-items:center;
   }
 
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
