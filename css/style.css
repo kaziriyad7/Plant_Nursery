@@ -295,7 +295,36 @@ html{
 }
 /* categories section end */
 
+/* services section start */
+.box-container2 {
+  display: flex;
+  flex-direction: wrap;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
 
+.content2 {
+  margin-top: 10px;
+
+}
+.content2 h3{
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+}
+.content2 p{
+  margin-top: 8px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.servicesImages {
+  width: 300px;
+  height: 300px;
+  border-radius:300px;
+}
+/* services section end */
 
 /* footer section start */
 .credit {
