@@ -67,6 +67,9 @@ html{
   padding:2rem 9%;
 }
 
+.header {
+  position: sticky;
+}
 .header-1{
   border-bottom: .1rem solid rgba(255, 255, 255, 0.096);
   background-color:#bbb;
@@ -295,6 +298,15 @@ html{
 }
 /* categories section end */
 
+
+/* Featured Plants slider section start */
+.slider-content {
+  display: flex;
+}
+/* Featured Plants slider section end */
+
+
+
 /* services section start */
 .box-container2 {
   display: flex;
@@ -320,11 +332,131 @@ html{
 }
 
 .servicesImages {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius:300px;
 }
 /* services section end */
+
+/* map section start */
+
+.deal .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  align-items: center;
+}
+
+.deal .row .image{
+  flex:1 1 40rem;
+}
+
+.deal .row .image img{
+  width:100%;
+}
+
+.deal .row .content{
+  flex:1 1 40rem;
+}
+
+.deal .row .content .title{
+  font-size: 3.5rem;
+  color:#333;
+}
+
+.deal .row .content p{
+  font-size: 1.5rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+.deal .row .content .count-down{
+  display: flex;
+  padding:1rem 0;
+  gap:1.5rem;
+}
+
+.deal .row .content .count-down .box{
+  width:9rem;
+  text-align: center;
+  border:.1rem solid rgba(0,0,0,.3);
+}
+
+.deal .row .content .count-down .box h3{
+  font-size: 5rem;
+  color:#333;
+}
+
+.deal .row .content .count-down .box span{
+  font-size: 1.7rem;
+  color:#fff;
+  display: block;
+  background:#666;
+  padding:.5rem;
+}
+
+.contact {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.map {
+  height: 500px;
+}
+.contact .row{
+  display: flex;
+  flex-wrap: wrap;
+  border:.1rem solid rgba(0,0,0,.3);
+}
+
+.contact .row .map{
+  width:100%;
+  flex:1 1 40rem;
+}
+
+.contact .row form{
+  padding:2rem;
+  flex:1 1 40rem;
+}
+
+.contact .row {
+  position: relative;
+}
+
+.contact .row form {
+  width:100%;
+  border-bottom: .1rem solid rgba(0,0,0,.3);
+  padding:1rem 0;
+  margin:1.5rem 0;
+  font-size: 1.7rem;
+  text-transform: none;
+  color:#333;
+}
+
+.contact .row form{
+  resize: none;
+  height:15rem;
+}
+
+.contact .row form {
+  border-color: var(--green);
+}
+
+.contact .row form {
+  position: absolute;
+  top:2.3rem; left:0;
+  font-size: 1.7rem;
+}
+
+.contact .row form {
+  top:-.1rem;
+  font-size: 1.5rem;
+  color:#666;
+}
+/* map section end */
+
+
 
 /* footer section start */
 .credit {
