@@ -338,6 +338,16 @@ html{
 }
 /* services section end */
 
+
+/* contactArea section start */
+.contactSection {
+  background-color:aqua;
+  width: 50%;
+  margin: 0 auto;
+  height: 400px;
+}
+/* contactArea section end */
+
 /* map section start */
 
 .deal .row{
